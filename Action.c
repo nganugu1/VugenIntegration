@@ -1,7 +1,8 @@
 Action()
 {
 	
-	
+	lr_start_transaction("T01");
+
 	web_custom_request("web_custom_request",
 		"URL=www.cnn.com",
 		"Method=GET",
@@ -10,6 +11,8 @@ Action()
 		"Referer=",
 		"Body=",
 		LAST);
+
+	lr_end_transaction("T02", LR_AUTO);
 
 	
 	
