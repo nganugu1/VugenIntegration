@@ -52,11 +52,11 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="T01"
+Order="T02"
 [StateManagement]
 LastReplayStatus=0
 [ActiveReplay]
 LastReplayedRunName=
 ActiveRunName=
 [Transactions]
-T01=
+T02=
