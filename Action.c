@@ -1,7 +1,7 @@
 Action()
 {
 	
-	lr_start_transaction("T02");
+	lr_start_transaction("T05");
 
 	web_custom_request("web_custom_request",
 		"URL=www.cnn.com",
@@ -12,7 +12,7 @@ Action()
 		"Body=",
 		LAST);
 
-	lr_end_transaction("T02", LR_AUTO);
+	lr_end_transaction("T05", LR_AUTO);
 
 	
 	
